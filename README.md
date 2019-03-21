@@ -1,6 +1,6 @@
 # Angular 7 - Todo-App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.
 
 ## Installation Guide
 
@@ -15,6 +15,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Or
+'npm start' will do
 
 ## Build
 
