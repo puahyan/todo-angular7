@@ -18,10 +18,10 @@
 			<div class="todo-app__content todo-app__contentResult">
 				<div class="todo-app__column-dispay"
 					 *ngIf="todoStore.getRemaining().length > 0 || todoStore.getCompleted().length > 0"
-					 @slideIn>
+					>
 				<div class="todo-app__total">
 					<div class="col-3">
-						<h6 class="todo-app__total-incomplete-number">{{ constant.ALL }} : {{todoStore.getAllTodo().length}}</h6>
+						<h6 class="todo-app__total-number">{{ constant.ALL }} : {{todoStore.getAllTodo().length}}</h6>
 					</div>
 					<div class="col-3">
 						<fa name="exclamation-circle" class="indicator fas fa-igloo todo-app__total-incomplete-indicator"></fa>
@@ -39,8 +39,7 @@
 				</div>
 
 				<div class="todo-app__todo-list">
-					<ul class="list-group list-group-flush todo-app__list-group"
-						*ngFor="let todo of todoStore.todos">
+					<ul class="list-group list-group-flush todo-app__list-group" *ngFor="let todo of todoStore.todos" @slideIn>
 						<li class="list-group-item todo-app__list-group-item d-flex justify-content-between align-items-center">
 							<div class="form-group todo-app__form-group">
 								<label 	class="custom-control custom-checkbox todo-app__list-label"
