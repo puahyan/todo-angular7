@@ -1,0 +1,185 @@
+@import "../../assets/scss/variable";
+@import "../../assets/scss/mixin";
+
+
+.todo-app {
+    background: $primary-color;
+    .todo-app__row {
+        height: 100vh!important;
+        .todo-app__column {
+            display: grid;
+            background: $primary-color;
+            .todo-app__content {
+                color: #fff;
+                font-family: $primary-font;
+                text-align: center;
+                width: 100%;
+                margin: auto;
+                top: 100px;
+                position: absolute;
+                .todo-app__title {
+                    font-size: 3em;
+                    font-weight: 900;
+                }
+                .todo-app__label {
+                    font-size: 1.5em;
+                    margin-bottom: 1em;
+                    font-weight:bolder;
+                }
+                .todo-app__input-group {
+                    .todo-app__input {
+                        height: 4em;
+                        @include placeholder-color($placeholder-color);
+                    }
+                }
+                .todo-app__button {
+                    background: #4292e7;
+                    border: 3px solid #71aff1;
+                    font-size: 1.3em;
+                    font-weight: 800;
+                    min-width: 6em;
+                    padding: .5em;
+                }
+            }
+            .todo-app__contentResult{
+                position: absolute;
+                top: 400px;
+                width: 100%;
+            }
+        }
+
+        .todo-app__column-dispay {
+            background: #fff;
+            overflow: auto;
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            margin-bottom:4rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            .todo-app__remove-single-completed-item{
+                color: $error-color;
+                margin-left: .7em;
+                cursor: pointer;
+                @extend .indicator;
+                width: 15px;
+                height: 15px;
+                top: 4px;
+                &:hover {
+                    color: $error-color;
+                    font-weight: 700;
+                }
+            }
+            .todo-app__total {
+                border-bottom: 1px solid #eaeaea;
+                padding: 1.3em;
+                .indicator {
+                    font-size: 24px;
+                    position: absolute;
+                    width: 21px;
+                    height: 21px;
+                    border-radius: 12px;
+                    left: 0;
+                    top: -10px;
+                    cursor: pointer;
+                    @include box-sizing(content-box);
+                }
+                @media only screen and (max-width: 1000px) {
+                    .col-3 {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        text-align: left;
+                        padding: 10px 0px 10px 50px;
+                    }
+                    .indicator{
+                        left:20px;
+                        top:2px;
+                    }
+                    display: initial;
+                }
+                @media only screen and (min-width: 1000px) {
+                    display: flex;
+                }
+
+                .todo-app__remove-total-completed-item {
+                    color: $error-color;
+                    margin-left: .7em;
+                    cursor: pointer;
+                    &:before {
+                        @extend .indicator;
+                        width: 15px;
+                        height: 15px;
+                        top: 4px;
+                    }
+                    &:hover {
+                        color: $error-color;
+                        font-weight: 700;
+                    }
+                }
+                .todo-app__total-incomplete-indicator {
+                    color: blue;
+                }
+                .todo-app__total-complete-indicator {
+                    color: green;
+                }
+                .todo-app__total-remove-indicator{
+                    color:red;
+                }
+                .todo-app__total-incomplete-number {
+                    margin-left: .5em;
+                    color:black;
+                }
+                .todo-app__total-complete-number {
+                    color:black;
+                    margin-left: .5em;
+                }
+            }
+            .todo-app__todo-list {
+                .todo-app__list-group {
+                    .todo-app__list-group-item {
+                        .todo-app__form-group {
+                            margin-bottom: 0;
+                            height: auto;
+                            float: left;
+                            overflow-wrap: break-word;
+                            overflow: hidden;
+                            text-align:justify;
+                            clear: both;
+                            word-break: break-all;
+                        }
+                        color:black;
+                        border-bottom: 1px solid #eaeaea;
+                        .todo-app__list-label {
+                            .todo-app__checkbox {
+                                margin-right: 1em;
+                            }
+                        }
+                        .todo-app__list-label-completed {
+                            font-style: italic;
+                            text-decoration: line-through;
+                        }
+                        .todo-app__remove-btn {
+                            padding: .1em;
+                            min-width: 2em;
+                            text-align: right;
+                            visibility: hidden;                            
+                        }
+                        &:hover {
+                            .todo-app__remove-btn {
+                                visibility: visible;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
