@@ -1,5 +1,6 @@
 import { Component, OnInit ,Injectable } from '@angular/core';
-import { TodoStore, Todo } from '../services/store';
+import { TodoStore } from '../services/store';
+import { Todo } from '../services/todo';
 import { trigger, state, transition, style, animate } from '@angular/animations';
 import { Constants } from '../services/constants';
 
@@ -45,19 +46,19 @@ export class TodoComponent implements OnInit {
 	ngOnInit() {
 	}
 
-    removeCompleted(todoComponent) {
+    removeCompleted() {
         this.todoStore.removeCompleted();
     }
 
-    toggleCompletion(todo: Todo, todoComponent) {
+    toggleCompletion(todo: Todo) {
         this.todoStore.toggleCompletion(todo);
     }
 
-    remove(todo: Todo, todoStatus){
+    remove(todo: Todo){
         this.todoStore.remove(todo);
     }
 
-    addTodo(todoStatus) {
+    addTodo() {
 	   if(this.newTodoText.trim().length === 0 ) {
 	       alert('Please enter new to do task 1');
        } else {

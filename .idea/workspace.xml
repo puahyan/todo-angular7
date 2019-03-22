@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13200417-3895-402b-8dfa-dca640820527" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/todo/todo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/todo/todo.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/todo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/todo.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -15,40 +17,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>remove</find>
-      <find>bin_hover.svg</find>
-      <find>todo-app__total</find>
-      <find>todo-app__column-dispay</find>
-      <find>add</find>
-      <find>ng7</find>
-      <find>slideInOut</find>
-      <find>todo-app__form</find>
-      <find>localStorage</find>
-      <find>storage</find>
-      <find>todo-app__remove-single-completed-item</find>
-      <find>boo</find>
-      <find>font</find>
-      <find>todo-app__total-complete-indicator</find>
-      <find>todo-app__total-remove-indicator</find>
-      <find>indicator</find>
-      <find>svg</find>
-      <find>21px</find>
-      <find>col-4</find>
-      <find>todo-app__title</find>
       <find>custom-control</find>
-      <find>remove</find>
-      <find>TodoInterface</find>
       <find>@Injectable()</find>
       <find>store</find>
       <find>Constants</find>
-      <find>Injectable</find>
       <find>todoStore</find>
       <find>todo-app__total-complete-numbe</find>
       <find>todo-app__total-incomplete-number</find>
+      <find>remove</find>
+      <find>removeCompleted</find>
+      <find>from '../services/store</find>
+      <find>column</find>
+      <find>toggleCompletion</find>
+      <find>toggleCompletio</find>
+      <find>addTodo</find>
+      <find>ng7-todoapp</find>
+      <find>Todo2</find>
+      <find>add</find>
+      <find>trim</find>
+      <find>todo2</find>
+      <find>Injectable</find>
+      <find>filter_</find>
+      <find>TodoInterface</find>
+      <find>class</find>
+      <find>Todo</find>
+      <find>TodoStore</find>
+      <find>typesc</find>
+      <find>3.3.</find>
+      <find>title</find>
+      <find>super</find>
+      <find>3.3.4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,102 +73,81 @@
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/../react-todo-app1/todo_app/src/assets/todo.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/app/services/store.ts" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/todo/todo.component.ts" />
         <option value="$PROJECT_DIR$/src/app/services/constants.ts" />
-        <option value="$PROJECT_DIR$/src/app/todo/todo.component.scss" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/src/server.js" />
+        <option value="$PROJECT_DIR$/angular.json" />
+        <option value="$PROJECT_DIR$/src/app/todo/todo.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/todo/todo.component.html" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/src/app/todo/todo.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/services/store.ts" />
+        <option value="$PROJECT_DIR$/src/app/services/todo.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="355" />
-    <option name="y" value="15" />
+    <option name="x" value="314" />
+    <option name="y" value="68" />
     <option name="width" value="1400" />
-    <option name="height" value="1100" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="angular7-todo-app1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular7-todo-app1" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-angular7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-angular7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="angular7-todo-app1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular7-todo-app1" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-angular7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-angular7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="angular7-todo-app1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular7-todo-app1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular7-todo-app1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular7-todo-app1" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-angular7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-angular7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="angular7-todo-app1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular7-todo-app1" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-angular7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-angular7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="angular7-todo-app1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular7-todo-app1" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-angular7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-angular7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="todo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular7-todo-app1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular7-todo-app1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular7-todo-app1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular7-todo-app1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular7-todo-app1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular7-todo-app1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-todo-app1/todo_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="C:\xampp\htdocs\orsted\angular7-todo-app\node_modules\tslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\xampp\htdocs\orsted\angular7-todo-app1\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\xampp\htdocs\orsted\puah-ors\todo-angular7\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,14 +203,17 @@
       <updated>1552922134151</updated>
       <workItem from="1552922135379" duration="6594000" />
       <workItem from="1553069312968" duration="14846000" />
+      <workItem from="1553251174527" duration="18439000" />
+      <workItem from="1553272990073" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21440000" />
+    <option name="totallyTimeSpent" value="40488000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="355" y="15" width="1400" height="1100" extended-state="0" />
+    <frame x="314" y="68" width="1400" height="1042" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -246,23 +240,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../react-todo-app1/todo_app/src/assets/todo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="205" column="37" selection-start-line="205" selection-start-column="37" selection-end-line="205" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2576">
-          <caret line="112" column="27" lean-forward="true" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../react-todo-app1/todo_app/src/assets/todo.scss" />
     <entry file="file://$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/src/component/angular-font-awesome.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-483" />
@@ -272,13 +250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-431">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -321,13 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/browserslist">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -338,27 +302,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/model/todo-interface.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/model/todo-interface.ts" />
+    <entry file="file://$PROJECT_DIR$/ng7-todoapp/main.js.map" />
+    <entry file="file://$PROJECT_DIR$/src/styles.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="17" selection-end-column="30" />
+        <state relative-caret-position="184">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/services/store.ts">
+    <entry file="file://$PROJECT_DIR$/src/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/todo/todo.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="50" column="95" selection-start-line="50" selection-start-column="95" selection-end-line="50" selection-end-column="95" />
         </state>
       </provider>
     </entry>
@@ -369,24 +352,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/todo/todo.component.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+        <state relative-caret-position="575">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/todo/todo.component.html">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+        <state relative-caret-position="217">
+          <caret line="9602" column="6" lean-forward="true" selection-start-line="9602" selection-start-column="6" selection-end-line="9602" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/todo/todo.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/todo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/todo/todo.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="874">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
@@ -397,6 +407,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>

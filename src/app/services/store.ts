@@ -1,27 +1,9 @@
 import { Injectable } from '@angular/core';
+import { Todo } from './todo';
 
 @Injectable({
 	providedIn: 'root'
 })
-
-export class Todo {
-	completed: Boolean;
-	editing: Boolean;
-
-	private _title: String;
-	get title() {
-		return this._title;
-	}
-	set title(value: String) {
-		this._title = value.trim();
-	}
-
-	constructor(title: String) {
-		this.completed = false;
-		this.editing = false;
-		this.title = title.trim();
-	}
-}
 
 export class TodoStore {
 	todos: Array<Todo>;
@@ -29,7 +11,8 @@ export class TodoStore {
 	constructor() {
 		let persistedTodos = JSON.parse(localStorage.getItem('todo-app') || '[]');
 		this.todos = persistedTodos.map( (todo: {_title: String, completed: Boolean}) => {
-			let ret = new Todo(todo._title);
+			let ret = new Todo();
+			ret._title = todo._title;
 			ret.completed = todo.completed;
 			return ret;
 		});
@@ -40,7 +23,7 @@ export class TodoStore {
 
 	}
 
-	private getWithCompleted(completed: Boolean) {
+ 	private getWithCompleted(completed: Boolean) {
 		return this.todos.filter((todo: Todo) => todo.completed === completed);
 	}
 
@@ -70,18 +53,20 @@ export class TodoStore {
 		return this.getWithCompleted(true);
 	}
 
-	toggleCompletion(todo: Todo) {
+ 	toggleCompletion(todo) {
 		todo.completed = !todo.completed;
 		this.updateStore();
 	}
 
-	remove(todo: Todo) {
+	remove(todo) {
 		this.todos.splice(this.todos.indexOf(todo), 1);
 		this.updateStore();
 	}
 
 	add(title: String) {
-		this.todos.push(new Todo(title));
+		let todo = new Todo();
+		todo._title = title;
+		this.todos.push(todo);
 		this.updateStore();
 	}
 }

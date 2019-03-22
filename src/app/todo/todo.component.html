@@ -6,13 +6,13 @@
 				<div class="todo-app__label">Add New To-Do</div>
 				<div class="input-group todo-app__input-group mb-3">
 					<input type="text" [(ngModel)]="newTodoText"
-							(keyup.enter)="addTodo(todoStatus)"
+							(keyup.enter)="addTodo()"
 							class="form-control todo-app__input"
 							placeholder="Enter new task">
 				</div>
 				<button type="button"
 						class="btn btn-primary todo-app__button"
-						(click)="addTodo(todoStatus)">Add</button>
+						(click)="addTodo()">Add</button>
 			</div>
 
 			<div class="todo-app__content todo-app__contentResult">
@@ -33,7 +33,7 @@
 					</div>
 					<div class="col-3" *ngIf="todoStore.getCompleted().length > 0" @fade>
 						<fa name="trash" class="indicator todo-app__total-remove-indicator"></fa>
-						<h6 class="todo-app__remove-total-completed-item" (click)="removeCompleted(todoStatus)">Remove {{ todoStore.getCompleted().length }} selected  </h6>
+						<h6 class="todo-app__remove-total-completed-item" (click)="removeCompleted()">Remove {{ todoStore.getCompleted().length }} selected  </h6>
 					</div>
 				</div>
 
@@ -46,13 +46,13 @@
 									<input 	type="checkbox"
 											  name="chbxTerms"
 											  class="custom-control-input todo-app__checkbox"
-											  (click)="toggleCompletion(todo, todoStatus)"
+											  (click)="toggleCompletion(todo)"
 											  [checked]="todo.completed">
-									<span class="custom-control-label" for="chbxTerms">{{todo.title}}</span>
+									<span class="custom-control-label" for="chbxTerms">{{todo._title}}</span>
 								</label>
 							</div>
 							<div title="Remove">
-								<button class="btn btn-default btn-danger pull-right" (click)="remove(todo, todoStatus)">
+								<button class="btn btn-default btn-danger pull-right" (click)="remove(todo)">
 									Delete
 								</button>
 							</div>

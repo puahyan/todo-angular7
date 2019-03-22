@@ -3,7 +3,8 @@
 
 $max-width: max-width;
 $min-width: min-width;
-$target-width: 1000px;
+$target-width: 800px;
+$target-middle-width: 1150px;
 
 .todo-app {
     background: $primary-color;
@@ -12,6 +13,14 @@ $target-width: 1000px;
         .todo-app__column {
             display: grid;
             background: $primary-color;
+            @media only screen and ($max-width : $target-width) {
+                flex: 0 0 80%;
+                max-width: 80%;
+            }
+            @media only screen and ($max-width : $target-middle-width) {
+                flex: 0 0 70%;
+                max-width: 70%;
+            }
             .todo-app__content {
                 color: #fff;
                 font-family: $primary-font;
