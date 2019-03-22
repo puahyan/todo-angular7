@@ -1,6 +1,9 @@
 @import "../../assets/scss/variable";
 @import "../../assets/scss/mixin";
 
+$max-width: max-width;
+$min-width: min-width;
+$target-width: 1000px;
 
 .todo-app {
     background: $primary-color;
@@ -90,7 +93,7 @@
                     cursor: pointer;
                     @include box-sizing(content-box);
                 }
-                @media only screen and (max-width: 1000px) {
+                @media only screen and ($max-width : $target-width) {
                     .col-3 {
                         flex: 0 0 100%;
                         max-width: 100%;
@@ -103,7 +106,7 @@
                     }
                     display: initial;
                 }
-                @media only screen and (min-width: 1000px) {
+                @media only screen and ($min-width : $target-width) {
                     display: flex;
                 }
 
